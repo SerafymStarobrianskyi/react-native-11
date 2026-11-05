@@ -14,6 +14,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow this app to access your location to show it on the map."
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
